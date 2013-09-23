@@ -1,0 +1,60 @@
+<html>
+	<body>
+		<form action="output.htm" method="get">
+			Name: <input type="text" name="name"></br>
+			Country: <input autofocus="autofocus" type="text" list="country" name="countries"></br>
+				<datalist id="country">
+					<option value="UK">
+					<option value="Canada">
+					<option value="USA">
+					<option value="India">
+					<option value="Brasil">
+				</datalist>
+			Sex: </br>
+			<input type="radio" name="sex" value="Male"> Male</br>
+			<input type="radio" name="sex" value="Female" checked="checked"> Female</br>
+			<select id="myList">
+				<option value="1">one</option>
+				<option value="2">two</option>
+				<option value="3">three</option>
+				<option value="4">four</option>
+			</select></br>
+			Password: <input type="password"></br>
+			<input type="hidden">
+			<textarea rows="4" cols="50">Leave us some comments so we can improve this site!</textarea></br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+		
+		</br></br>
+		<video width="320" height="240" controls>
+			<source src="ninja.mp4" type="video/mp4">
+			Your browser does not support HTML5 videos.
+		</video>
+		
+		</br></br>
+		<audio controls autoplay>
+			<source src="zelda.wav" type="audio/wav">
+			<source src="#antisec.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		
+		</br></br>
+		<input type="file" accept="video"/>
+		<video controls autoplay></video>
+		
+		</br></br>
+		<canvas id="drawing1" width="400" height="400" style="border:1px solid #000000;">
+		</canvas>
+		
+		</br></br>
+		<embed src="bush.svg" type="image/svg+xml" />
+		
+		</br></br>
+		<svg xmlns="http://www.wg.org/2000/svg" version="1.1">
+			<circle cx="100" cy="50" r="40" stroke="red" stroke-width="2" fill="blue" />
+		</svg>
+		
+		
+	</body>
+</html>
