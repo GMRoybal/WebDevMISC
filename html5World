@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<!--[if lt IE 9]>
+		<script 
+		src="html5shiv.js">
+		</script>
+		<![endif]-->
+		<title> My first HTML5 page!</title>
+		<meta name="description" content="Free HTML5 tutorials"> 
+		<meta name="keywords" content="HTML, CSS, JavaScript"> 
+		<meta name="author" content="HTML.net"> 
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	</head>
+	
+	<body>
+		<p>This is my new HTML5 page.</p>
+		
+		<header>
+			<h1>The name of this web page</h1>
+			<p>Written by me!</p>
+		</header>
+		
+		<article>
+			<h1>My Blog Entry</h1>
+			<p>This blog entry is my first.</p>
+			<section>
+				<h2>What I Learned</h2>
+				<p>
+					HTML5 can have artcles and sections.
+					<a target="_blank" href="htmlWorld.html">Second Page</a>
+				</p>
+			</section>
+		</article>
+		
+		<script>
+			document.write("Hello from HTML.net!")
+		</script>
+		
+		<footer>
+			<p> Copyright © 2013 All Rights</p>
+		</footer>
+		
+	</body>
+	
+</html>
